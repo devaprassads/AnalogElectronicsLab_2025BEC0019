@@ -25,7 +25,7 @@ The NMOS test schematic consists of a single `nmos1v` device with two independen
 
 The source and bulk terminals are tied to ground. This configuration allows both the gate-source and drain-source voltages to be swept independently to characterize the device.
 
-See [`[Schematic/nmos_test_schematic.png](https://github.com/devaprassads/AnalogElectronicsLab_2025BEC0019/blob/45b749f00171271d11c3d7b86696329aa74e211a/Experiment1_nmoschara/schematic/nmos_test_schematic.png)`](./Schematic) for the circuit.
+See [`[Schematic/nmos_test_schematic.png])`](./Schematic) for the circuit.
 
 ## Simulation Procedure
 
