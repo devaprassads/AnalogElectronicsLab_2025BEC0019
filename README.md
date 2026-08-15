@@ -8,7 +8,7 @@ This repository contains the schematic captures, simulation results, and reports
 
 ## Repository Structure
 
-| Experiment | Description | 
+| Experiment | Description | Status |
 |---|---|---|
 | [Experiment1_nmoschara](./Experiment1_nmoschara) | NMOS drain and transfer characteristics using ADE-L 
 | Experiment02_CMOS_Inverter_Layout | CMOS inverter schematic-to-layout flow, DRC/LVS, parasitic extraction
