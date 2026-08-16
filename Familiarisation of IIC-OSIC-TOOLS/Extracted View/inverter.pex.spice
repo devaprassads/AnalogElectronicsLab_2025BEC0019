@@ -1,0 +1,13 @@
+* PEX produced on Sat Aug 15 06:53:28 PM CEST 2026 using /foss/tools/sak/iic-pex.sh with m=3 and s=1 (extresist threshold=10000 mOhm, minres=1000 mOhm, mindelay=1 ps)
+* NGSPICE file created from inverter.ext - technology: sky130A
+
+.subckt inverter VDD A Y VSS
+X0 Y A VDD VDD sky130_fd_pr__pfet_01v8 ad=0.6 pd=3.2 as=0.6 ps=3.2 w=1 l=0.15
+X1 Y A VSS VSS sky130_fd_pr__nfet_01v8 ad=0.6 pd=3.2 as=0.6 ps=3.2 w=1 l=0.15
+C0 Y VDD 0.09651f
+C1 VDD A 0.05048f
+C2 Y A 0.04118f
+C3 Y VSS 0.48835f
+C4 VDD VSS 0.88894f
+.ends
+

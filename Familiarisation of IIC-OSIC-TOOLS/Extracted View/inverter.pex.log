@@ -1,0 +1,29 @@
+
+Magic 8.3 revision 678 - Compiled on Mon Jul 27 03:07:22 PM CEST 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+WARNING: RLIMIT_NOFILE is above 1024 and Tcl_Version<9 this may cause runtime issues [rlim_cur=1048576]
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/foss/designs/simulations/inverter/pex_inverter.tcl" from command line.
+Cell inverter read from current working directory
+Scaled magic input cell inverter geometry by factor of 2
+Extracting inverter into /foss/designs/simulations/inverter/inverter.ext:
+Processing inverter
+Processing cell inverter for resistance extraction.
+Extracting VSS
+Total Nets: 4
+Nets extracted: 1 (0.250000)
+Nets output: 1 (0.250000)
+exttospice finished.
