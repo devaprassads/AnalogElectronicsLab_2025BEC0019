@@ -1,0 +1,37 @@
+** sch_path: /foss/designs/diglib/inv/inverter_tb.sch
+**.subckt inverter_tb Vout
+*.opin Vout
+x1 Vdd Vin Vout 0 inverter
+Vin Vin 0 0
+Vdd Vdd 0 1.8
+**** begin user architecture code
+
+** opencircuitdesign pdks install
+.lib /foss/pdks/sky130A/libs.tech/combined/sky130.lib.spice tt
+
+
+
+.option savecurrents
+.control
+save all
+dc Vin 0 1.8 0.1
+plot v(Vin) v(Vout)
+.endc
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  /foss/designs/diglib/inv/inverter.sym # of pins=4
+** sym_path: /foss/designs/diglib/inv/inverter.sym
+** sch_path: /foss/designs/diglib/inv/inverter.sch
+.subckt inverter VDD A Y VSS
+*.iopin VDD
+*.iopin VSS
+*.ipin A
+*.opin Y
+XM2 Y A VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM11 Y A VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+.ends
+
+.end
