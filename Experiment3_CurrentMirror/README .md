@@ -62,4 +62,4 @@ Simple and cascode current mirrors were designed and simulated in Cadence Virtuo
 
 - [`Schematic/`](./Schematic) — simple and cascode mirror schematics, at 1:1 and 2:1 width ratios
 - [`Waveforms/`](./Waveforms) — output I–V characteristic screenshots for all four schematics
-- [`report/`](./report) — full lab report 
+- [`report/`](./CurrentMirror_Design_Report) — full lab report 
