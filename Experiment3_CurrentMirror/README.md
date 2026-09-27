@@ -13,10 +13,8 @@ To design, simulate, and compare a simple (two-transistor) NMOS current mirror a
 | Device | `nmos1v` (gpdk090_nmos1v) |
 | Width (W) | 100 µm |
 | Length (L) | 200 nm |
-| Multiplier (m) | 1 |
 | Reference current (I2) | 1 mA |
 | Reference branch supply (V1) | 1.2 V |
-| Output branch supply (V2), swept | 0 – ~0.73 V |
 | Technology | GPDK090 |
 
 ### Cascode Current Mirror
@@ -26,10 +24,8 @@ To design, simulate, and compare a simple (two-transistor) NMOS current mirror a
 | Device | `nmos1v` (gpdk090_nmos1v) |
 | Width (W) | 200 µm |
 | Length (L) | 200 nm |
-| Multiplier (m) | 1 |
 | Reference current (I1) | 2 mA |
 | Reference branch supply (V0) | 1.2 V |
-| Output branch supply (V1), swept | 0 – 1.2 V |
 | Technology | GPDK090 |
 
 ## Circuit Description
