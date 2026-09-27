@@ -81,4 +81,4 @@ Both a simple and a cascode NMOS current mirror (GPDK090, L = 200 nm) were desig
 
 - [`Schematic/`](./Schematic) — Simple and cascode current mirror schematics
 - [`Waveforms/`](./Waveforms) — Output I–V characteristics for both mirrors
-- [`report/CurrentMirror_Report.pdf`](./report/CurrentMirror_Report.pdf) — Full lab report
+- [`report/CurrentMirror_Report.pdf`](./CurrentMirror_Report.pdf) — Full lab report
