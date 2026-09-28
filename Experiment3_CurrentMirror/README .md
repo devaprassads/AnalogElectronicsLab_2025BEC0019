@@ -37,15 +37,15 @@ Technology: GPDK090.
 
 | Variant | Marker reading (at V_out = 600 mV) | Waveform file |
 |---|---|---|
-| Simple — 1:1 | 996.26 µA | [`Waveforms/cascode_waveform_1m.jpeg`](./Waveforms/cascode_waveform_1m.jpeg) |
-| Simple — 2:1 | 1.992 mA | [`Waveforms/cascode_waveform2m.jpeg`](./Waveforms/cascode_waveform2m.jpeg) |
-| Cascode — 1:1 | 973.84 µA | [`Waveforms/simple_waveform1m.jpeg`](./Waveforms/simple_waveform1m.jpeg) |
-| Cascode — 2:1 | 1.947 mA | [`Waveforms/simple_waveform2m.jpeg`](./Waveforms/simple_waveform2m.jpeg) |
+| Simple — 1:1 | 996.26 µA | [`Waveforms/cascode_waveform_1m.jpeg`](./Waveforms/SimpleWaveform_1m.jpeg) |
+| Simple — 2:1 | 1.992 mA | [`Waveforms/cascode_waveform2m.jpeg`](./Waveforms/SimpleWaveform_2m.jpeg) |
+| Cascode — 1:1 | 973.84 µA | [`Waveforms/simple_waveform1m.jpeg`](./Waveforms/CascodeWaveform_1m.jpeg) |
+| Cascode — 2:1 | 1.947 mA | [`Waveforms/simple_waveform2m.jpeg`](./Waveforms/CascodeWaveform_2m.jpeg) |
 
-![Simple mirror 1:1](./Waveforms/cascode_waveform_1m.jpeg)
-![Simple mirror 2:1](./Waveforms/cascode_waveform2m.jpeg)
-![Cascode mirror 1:1](./Waveforms/simple_waveform1m.jpeg)
-![Cascode mirror 2:1](./Waveforms/simple_waveform2m.jpeg)
+![Simple mirror 1:1](./Waveforms/SimpleWaveform_1m.jpeg)
+![Simple mirror 2:1](./Waveforms/SimpleWaveform_2m.jpeg)
+![Cascode mirror 1:1](./Waveforms/CascodeWaveform_1m.jpeg)
+![Cascode mirror 2:1](./Waveforms/CascodeWaveform_2m.jpeg)
 
 ## Observations
 
@@ -60,6 +60,7 @@ Simple and cascode current mirrors were designed and simulated in Cadence Virtuo
 
 ## Files in this folder
 
+- ['Width calculation/'](./Width Calculation) -Calculations for width
 - [`Schematic/`](./Schematic) — simple and cascode mirror schematics, at 1:1 and 2:1 width ratios
 - [`Waveforms/`](./Waveforms) — output I–V characteristic screenshots for all four schematics
 - [`report/`](./CurrentMirror_Design_Report.pdf) — full lab report 
