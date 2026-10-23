@@ -3,7 +3,9 @@
 This repository contains the schematic captures, simulation results, and reports for the Analog Electronics Lab (IIIT Kottayam), carried out using Cadence Virtuoso on the GPDK090 PDK.
 
 **Student:** Deva Prassad S
+
 **Roll Number:** 2025BEC0019
+
 **Programme:** B.Tech Electronics and Communication Engineering
 
 ## Repository Structure
