@@ -8,8 +8,8 @@ This repository contains the schematic captures, simulation results, and reports
 
 ## Repository Structure
 
-| Experiment | Description | Status |
-|---|---|---|
+| Experiment | Description |
+|---|---|
 | [Experiment1_nmoschara](./Experiment1_nmoschara) | NMOS drain and transfer characteristics using ADE-L 
 | [Experiment2_Inverter](./Familiarisation%20of%20IIC-OSIC-TOOLS) | CMOS inverter schematic-to-layout flow, DRC/LVS, parasitic extraction in IIC-OSIC-TOOLS
 | [Experiment3_Current Mirror](./Experiment3_CurrentMirror) | Current mirror design and simulation 
